@@ -1,0 +1,55 @@
+# ==========================================
+# SEGURANÇA E CONFORMIDADE LGPD (LEI 13.709/2018)
+# ==========================================
+
+# 1. Credenciais, Chaves de API e Variáveis de Ambiente
+.env
+.env.local
+.env.*.local
+*.env
+
+# 2. Sessões Criptográficas do WhatsApp (Tokens e Chaves de Pareamento Baileys)
+auth_info/
+auth_info/*
+auth_info_baileys/
+*.session
+
+# 3. Dados Sensíveis de Usuários / Operadores (PII - LGPD)
+# Histórico de conversas, números de telefone de lojas e logs de atendimento
+data/sessions.json
+data/*.log
+data/qrcode.png
+*.log
+
+# 4. Dados Brutos Extraídos e Dumps de Mineração de Chat
+extracted_data/
+extracted_data/*
+chat_sample.json
+*.dump
+
+# 5. Scripts de Mineração / Automação Temporária de Navegador
+*.py
+*.pyc
+__pycache__/
+
+# 6. Capturas de Tela e Evidências Visuais
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# 7. Dependências e Gerenciadores de Pacotes
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 8. Arquivos do Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "zebra_branca_gc420t",
+    "equipamento": "Impressora Zebra GC420t (Branca / Cinza)",
+    "categoria": "Impressora / Etiquetas",
+    "gatilhos": [
+      "impressora branca",
+      "branca",
+      "gc420",
+      "gc420t",
+      "etiqueta",
+      "pulando",
+      "cortando",
+      "duas piscadas",
+      "calibrar",
+      "luz vermelha",
+      "nao sai preco",
+      "imprime um preco e para",
+      "zebra travando"
+    ],
+    "passos_rapidos": [
+      "Com a impressora ligada e com etiqueta dentro, segure o botão redondo FEED.",
+      "Observe a luz piscar: ela vai piscar 1 vez... quando piscar 2 vezes seguidas, solte o botão na hora.",
+      "A impressora vai puxar de 2 a 3 etiquetas devagar e travar certinho no picote com o LED verde fixo.",
+      "Se continuar sem puxar: desliga na chave atrás, espera 10 segundos, liga e aperta o botão 1 vez só pra liberar a memória."
+    ],
+    "criterio_transbordo": "Se após a calibração de 2 piscadas continuar com luz vermelha piscando ou não puxar papel, transferir para o Rafael (CPD)."
+  },
+  {
+    "id": "zebra_preta_zd220",
+    "equipamento": "Impressora Zebra ZD220 / ZD230 (Preta)",
+    "categoria": "Impressora / Etiquetas",
+    "gatilhos": [
+      "impressora preta",
+      "preta",
+      "zd220",
+      "zd230",
+      "sensor movel",
+      "trilho amarelo",
+      "etiqueta fifo",
+      "validade",
+      "luz vermelha preta",
+      "trocou bobina"
+    ],
+    "passos_rapidos": [
+      "Abra a impressora preta e olhe no fundo onde passa a etiqueta: há uma pecinha amarela móvel que corre num trilho.",
+      "Deslize essa pecinha amarela para que fique exatamente no meio da etiqueta (onde fica o vão/gap).",
+      "Feche a tampa superior pressionando com firmeza os dois lados até ouvir o clique duplo nas duas travas.",
+      "Segure o botão de avanço até a luz piscar para reconhecer o tamanho da nova etiqueta (especialmente se for FIFO de validade)."
+    ],
+    "criterio_transbordo": "Se o sensor estiver alinhado e mesmo assim o LED continuar vermelho piscando ou der erro de ribbon, transferir para o Rafael."
+  },
+  {
+    "id": "sistema_consinco_etiquetas",
+    "equipamento": "Sistema Consinco ERP / Spooler de Impressão",
+    "categoria": "Sistema / Consinco",
+    "gatilhos": [
+      "consinco",
+      "preco nao sai",
+      "nao imprime preco",
+      "travou no consinco",
+      "fila presa",
+      "led verde nao imprime",
+      "carga consinco",
+      "mandei imprimir no consinco"
+    ],
+    "passos_rapidos": [
+      "Confira se a luz da impressora está verde fixa.",
+      "Feche o sistema Consinco.",
+      "Reinicie o computador da loja.",
+      "Abra o Consinco novamente para atualizar a tabela de preços e envie a impressão de teste."
+    ],
+    "criterio_transbordo": "Se o computador reiniciar e o Consinco continuar sem emitir etiquetas ou der erro de spooler/porta USB, transferir para acesso remoto do Rafael."
+  },
+  {
+    "id": "gaveta_dinheiro_pdv",
+    "equipamento": "Gaveta de Dinheiro do PDV",
+    "categoria": "PDV / Caixa",
+    "gatilhos": [
+      "gaveta",
+      "gaveta travada",
+      "gaveta nao fecha",
+      "gaveta nao abre",
+      "trilho",
+      "frente presa",
+      "gaveta emperrada"
+    ],
+    "passos_rapidos": [
+      "Puxe a gaveta totalmente para fora do trilho com cuidado.",
+      "Verifique se não há moedas, notas ou clipes caídos atrás da gaveta travando o mecanismo.",
+      "Confira se a gaveta não saiu do trilho lateral ou se a frente de metal bateu e entortou.",
+      "Confira se o cabo preto que liga a gaveta embaixo da impressora de cupom (conector tipo telefone RJ11) está bem encaixado."
+    ],
+    "criterio_transbordo": "Se o trilho estiver amassado, o solenoide queimado ou o cabo rompido, transferir para troca de gaveta pelo CPD."
+  },
+  {
+    "id": "leitor_codigo_barras",
+    "equipamento": "Leitor de Código de Barras / Coletor",
+    "categoria": "PDV / Leitor",
+    "gatilhos": [
+      "leitor",
+      "leitor nao le",
+      "leitor apagado",
+      "laser apagado",
+      "datalogic",
+      "coletor lento",
+      "coletor travando"
+    ],
+    "passos_rapidos": [
+      "Verifique se o cabo USB atrás da CPU do caixa não foi desconectado acidentalmente.",
+      "Troque de porta USB: retire o cabo e conecte em uma porta USB traseira diferente.",
+      "Observe se o leitor emite um bipe sonoro e acende a luz de leitura ao ser plugado."
+    ],
+    "criterio_transbordo": "Se o leitor não ligar em nenhuma porta USB traseira ou apresentar cabo quebrado/lente trincada, transferir para substituição de leitor reserva."
+  },
+  {
+    "id": "balanca_toledo_prix",
+    "equipamento": "Balança Toledo Prix (Açougue / Fatiados / PDV)",
+    "categoria": "Balanças",
+    "gatilhos": [
+      "balanca",
+      "balanca acougue",
+      "fatiados",
+      "nao entra carga",
+      "cabeca termica balanca",
+      "balanca nao pesa",
+      "carga balanca"
+    ],
+    "passos_rapidos": [
+      "Confira se o cabo de rede azul está conectado atrás da balança e se as luzes da placa de rede estão piscando.",
+      "Confira se a carga de preços já foi enviada no sistema Consinco.",
+      "Se a impressão estiver falhando ou borrando: puxe a gaveta lateral da balança, confira se não colou etiqueta no rolete e passe um pano seco e limpo na cabeça térmica."
+    ],
+    "criterio_transbordo": "Se o código de barras sair cortado ao meio (falha vertical permanente na cabeça térmica) ou erro na célula de carga, acionar técnico especializado (Renner Balanças)."
+  },
+  {
+    "id": "operador_caixa_glpi",
+    "equipamento": "Permissões de Usuário / Código de Operador",
+    "categoria": "Acesso / Consinco",
+    "gatilhos": [
+      "operador",
+      "codigo operador",
+      "permissao caixa",
+      "abrir caixa",
+      "troca de loja",
+      "liberar operador",
+      "sem permissao"
+    ],
+    "passos_rapidos": [
+      "Por regra de auditoria da rede, a criação e liberação de operador de caixa deve ser registrada no sistema.",
+      "Por favor, envie o Nome Completo da operadora, Matrícula e Número da Loja para inclusão."
+    ],
+    "criterio_transbordo": "O chamado de liberação de operador é enviado diretamente ao Rafael (CPD) para validação e cadastro no Consinco/GLPI."
+  },
+  {
+    "id": "computador_cpu_nao_liga",
+    "equipamento": "Computador / CPU do PDV ou Gerência",
+    "categoria": "Hardware / Computador",
+    "gatilhos": [
+      "computador nao liga",
+      "cpu nao liga",
+      "pc desligou",
+      "nao da sinal",
+      "caixa apagado",
+      "computador apagou"
+    ],
+    "passos_rapidos": [
+      "Retire o cabo de força preto da fonte do computador e da tomada.",
+      "Aguarde 30 segundos com tudo fora da tomada para drenar a energia da placa-mãe.",
+      "Verifique se o botão do estabilizador ou nobreak está ligado e com a luz verde.",
+      "Reconecte o cabo com firmeza e pressione o botão liga/desliga frontal da CPU."
+    ],
+    "criterio_transbordo": "Se a máquina não emitir nenhum ruído de ventoinha ou luz na placa após o dreno de energia, transferir para atendimento presencial do CPD."
+  },
+  {
+    "id": "queda_link_internet",
+    "equipamento": "Link de Dados / Conexão de Internet da Loja",
+    "categoria": "Rede / Link",
+    "gatilhos": [
+      "sem internet",
+      "loja sem internet",
+      "caiu a internet",
+      "sem comunicacao",
+      "sistema fora do ar",
+      "link caiu"
+    ],
+    "passos_rapidos": [
+      "Lembramos que o aplicativo de registro de PONTO funciona normalmente offline. Os colaboradores podem registrar que as batidas sobem assim que a internet voltar.",
+      "Por favor, tire uma foto do rack/modem da operadora para acionamento do suporte da operadora de telecom."
+    ],
+    "criterio_transbordo": "Quedas gerais de link são acompanhadas pelo monitoramento central do CPD e acionadas com a operadora de telecomunicações."
+  },
+  {
+    "id": "rec_1795727767553_6ejdy",
+    "equipamento": "Sistema Consinco ERP / Spooler de Impressão",
+    "categoria": "Sistemas",
+    "gatilhos": [
+      "preço não sai",
+      "não imprime preço",
+      "consinc",
+      "spooler"
+    ],
+    "passos_rapidos": [
+      "Conferir luz verde da impressora",
+      "Fechar o sistema Consinco",
+      "Reiniciar o computador da loja",
+      "Abrir o Consinco novamente para testar",
+      "Solicitar acesso remoto caso o problema persista"
+    ],
+    "criterio_transbordo": "Quando o problema de impressão no Consinco persistir mesmo após reiniciar o computador e o sistema.",
+    "criado_em": "2026-11-26T21:16:07.554Z"
+  },
+  {
+    "id": "rec_1795728388923_vmdwi",
+    "equipamento": "Sistema Consinco ERP / Spooler de Impressão",
+    "categoria": "Sistemas",
+    "gatilhos": [
+      "preço não sai",
+      "impressora não imprime preço",
+      "consnco",
+      "spooler"
+    ],
+    "passos_rapidos": [
+      "Conferir luz verde da impressora",
+      "Fechar o sistema Consinco e reiniciar o computador",
+      "Abrir o Consinco novamente para testar",
+      "Acionar o suporte remoto caso o problema persista"
+    ],
+    "criterio_transbordo": "Quando reiniciar o computador e o Consinco não resolver o problema de impressão de preços.",
+    "criado_em": "2026-11-26T21:26:28.923Z"
+  }
+]

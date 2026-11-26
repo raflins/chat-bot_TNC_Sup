@@ -1,0 +1,30 @@
+{
+  "name": "cpd-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Chatbot de suporte técnico de TI/CPD para WhatsApp Business com Baileys e Gemini Flash",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seeder.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "gemini",
+    "cpd",
+    "zebra",
+    "suporte"
+  ],
+  "author": "Rafael Pereira - CPD",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
